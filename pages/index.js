@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Layout.module.css'
 
 export default function Home() {
   return (
@@ -8,10 +8,7 @@ export default function Home() {
         <title>WebDev News</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        
-      </main>
+      <h1>Welcome to NextJS</h1>
     </div>
   )
 }
