@@ -7,6 +7,7 @@ export default function Home() {
       <Head>
         <title>WebDev News</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="keywords" content='web development, programming, react, next' />
       </Head>
       <h1>Welcome to NextJS</h1>
     </div>
