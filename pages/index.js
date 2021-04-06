@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import ArticleList from '../components/ArticleList';
+
 import styles from '../styles/Layout.module.css'
 
 export default function Home({articles}) {
@@ -10,9 +12,7 @@ export default function Home({articles}) {
 			<meta name="keywords" content='web development, programming, react, next' />
 		</Head>
 
-		{
-		articles.map(article => <h3>{article.title}</h3>)
-		}
+		<ArticleList articles={articles} />
 
 		</div>
 	)
